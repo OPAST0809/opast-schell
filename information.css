@@ -1,0 +1,278 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  background: #f0f0f0;
+ }
+ header{
+     width: 100%;
+     text-align: center;
+     margin: auto;
+     background: #ffffff;
+     box-shadow: 0 5px 7px #cfcfcf;
+ }
+ 
+ 
+ .debut{
+   background-color: #ffffff;
+   position: fixed;
+   z-index: 50;
+   width: 100%;
+   display: flex;
+   box-shadow: 0 2px 10px #ccdee6;
+   padding: 2px;
+ }
+ .debut img{
+   width: 10vh;
+   height: 10vh;
+   margin-left: 5px;
+   margin-top: 5px;
+ }
+ .debut h1{
+   color: #2ca2d1;
+   text-align: center;
+   font-family: impact;
+   letter-spacing: 4px;
+   margin-left: 5px;
+ }
+ 
+ .solito{
+  display: block;
+  position: relative;
+  padding-top: 3.7rem;
+ }
+ 
+ 
+ 
+ 
+ nav{
+   display: block;
+   position: relative;
+   text-align: center;
+   margin: auto;
+   background-color: #f2f5f8;
+   padding: 10px;
+  }
+  nav ul{
+   display: block;
+   position: relative;
+   list-style-type: none;
+   left: -1.2rem;
+   margin-bottom: -0.6rem;
+  }
+  nav ul li{
+   display: inline-block;
+   margin: 5px 0;
+   border-left: 1.5px solid #e6e6e6;
+   border-radius: 2px;
+  }
+  nav li a{
+   display: inline-block;
+   text-decoration: none;
+   color: #3a87ad;
+   font-weight: 500;
+   padding: 10px;
+   text-align: center;
+  }
+  nav li a:hover{
+   background-color: #2ca2d1;
+   color: #ffffff;
+   box-shadow: 0 3px 2px #3a87adea;
+  }
+ 
+ 
+ 
+ 
+ 
+ .nuevo{
+  display: block;
+  position: relative;
+  text-align: center;
+  margin: auto;
+ }
+ .nuevo img{
+  width: 100%;
+ }
+ .nuevo p{
+  text-align: left;
+  line-height: 23px;
+  color: #000000;
+  padding: 5px;
+ }
+ 
+ 
+ .texto{
+  display: inline-block;
+  text-align: center;
+  margin: 2px 0;
+  height: auto;
+  margin-top: -2rem;
+  background-color: #fdfdfd;
+ }
+ .texto p{
+  text-align: left;
+  line-height: 22px;
+  padding: 10px;
+ }
+ .texto img{
+  width: 100%;
+  margin-top: -15px;
+  margin-bottom: 3px;
+ }
+ 
+ .information-globale{
+  background-color: #ffffff;
+  padding-top: 10px;
+ }
+ .information-globale h3{
+  color: #ffffff;
+  margin-top: -1rem;
+  font-size: 25px;
+  padding: 10px;
+  font-size: 25px;
+  background-color: #32bcd4;
+ }
+ .information-globale h2{
+ padding: 10px;
+ color: #e40a90;
+ text-align: center;
+ font-size: 17px;
+ margin-bottom: 29px;
+ }
+ 
+ 
+ .sikoa{
+  width: 100%;
+  margin: auto;
+ }
+ 
+ .information{
+  display: block;
+  text-align: center;
+  margin-top: -1.8rem;
+  background-color: #ffffff;
+ 
+  margin: 20px 5px;
+  border-radius: 3px;
+ }
+ .information h3{
+  text-align: center;
+  background-color: transparent;
+  color: #cf5555;
+  font-size: 18px;
+  padding: 0;
+  margin-top: -3px;
+  text-transform: uppercase;
+ }
+ .information p{
+  text-align: left;
+  line-height: 23px;
+  margin-top: -12px;
+ }
+ 
+ 
+ 
+ .download{
+   display: block;
+   position: inherit;
+   margin: auto;
+   text-align: center;
+   background-color: #2284aa;
+   padding-bottom: 15px;
+   
+ }
+ .download h1{
+   font-size: 20px;
+   color: #ffffff;
+   padding-top: 1rem;
+ }
+ .download p{
+ line-height: 23px;
+ color: #ffffff;
+ text-align: left;
+ padding: 5px;
+ }
+ .download ul{
+   display: block;
+   position: relative;
+   text-align: center;
+   margin: auto;
+   left: -25px;
+ }
+ .download ul li{
+   list-style-type: none;
+   padding: 5px;
+   margin: 15px 0;
+   display: inline-flex;
+ }
+ .download li a{
+   text-decoration: none;
+   color: #000000;
+   background-color: #f8fdffee;
+   box-shadow: 1px 3px 2px 1px #f4f7f881;
+   padding: 10px;
+   border-radius: 5px;
+   font-size: 14px;
+   transition: 0.2s;
+ }
+ .download li a:hover{
+   background-color: #2284aa;
+   color: #ffffff;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .mail{
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px;
+  margin: auto;
+  width: 90%;
+  position: fixed;
+  z-index: 50;
+  width: 100%;
+  display: flex;
+  bottom: 0;
+  text-align: center;
+ }
+ .mail legend{
+  text-align: center;
+  position: relative;
+  display: block;
+  color: #2481a7;
+  margin: auto;
+  font-size: 17px;
+  font-weight: 500;
+ }
+ .mail a{
+  text-decoration: none;
+  padding: 10px;
+  position: relative;
+  left: -3.5rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 2px 9px #2481a7;
+ }
+ .mail a i{
+  color: #2481a7;
+  font-size: 20px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
